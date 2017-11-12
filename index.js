@@ -88,7 +88,7 @@ io.on('connection', function(socket) {
 
     apiaiReq.on('response', (response) => {
 
-      console.log('GET RESPONSE FROM APIAAI : \n'+JSON.stringify(response)+'\n\n');
+      console.log('GET RESPONSE FROM APIAI : \n'+JSON.stringify(response)+'\n\n');
 
       let aiText = response.result.fulfillment.speech;
       console.log('Bot reply: ' + aiText);
