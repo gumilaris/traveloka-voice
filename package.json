@@ -1,0 +1,40 @@
+{
+  "name": "web-speech-ai",
+  "version": "1.0.0",
+  "description": "Simple AI Chat Bot Demo with Web Speech API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomomi Imura",
+  "license": "MIT",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.16.2",
+    "format-number": "^3.0.0",
+    "html-table-to-json": "^0.2.1",
+    "is-undefined": "^1.0.8",
+    "json-query": "^2.2.2",
+    "json-stable-stringify": "^1.0.1",
+    "node-datetime": "^2.0.3",
+    "node-json2html": "^1.1.1",
+    "node-rest-client": "^3.1.0",
+    "normalize-url": "^1.9.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sanitize-html": "^1.15.0",
+    "socket.io": "^2.0.4",
+    "socketio": "^1.0.0",
+    "string": "^3.3.3",
+    "telegraf": "^3.15.3",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0"
+  },
+  "keywords": [],
+  "devDependencies": {}
+}
