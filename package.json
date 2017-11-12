@@ -1,20 +1,32 @@
 {
-  "name": "web-speech-ai",
+  "name": "traveloka-voice",
   "version": "1.0.0",
-  "description": "Simple AI Chat Bot Demo with Web Speech API",
+  "description": "Simple AI Chatbot Voice to get Traveloka flight schedules",
   "main": "index.js",
   "scripts": {
-    "start": "nf start",
+    "start": "npm index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tomomi Imura",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumilaris/traveloka-voice.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "ai",
+    "bot"
+  ],
+  "author": "Gumilar Irwan Supendi",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gumilaris/traveloka-voice/issues"
+  },
+  "homepage": "https://github.com/gumilaris/traveloka-voice#readme",
   "dependencies": {
     "apiai": "^4.0.3",
     "body-parser": "^1.18.2",
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
-    "ejs": "^2.5.6",
     "express": "^4.16.2",
     "format-number": "^3.0.0",
     "html-table-to-json": "^0.2.1",
@@ -29,12 +41,8 @@
     "request-promise": "^4.2.2",
     "sanitize-html": "^1.15.0",
     "socket.io": "^2.0.4",
-    "socketio": "^1.0.0",
     "string": "^3.3.3",
     "telegraf": "^3.15.3",
-    "underscore": "^1.8.3",
-    "uuid": "^3.1.0"
-  },
-  "keywords": [],
-  "devDependencies": {}
+    "underscore": "^1.8.3"
+  }
 }
